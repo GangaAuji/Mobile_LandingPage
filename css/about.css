@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #010101;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.log-in{
+  margin-right: 1rem;
+}
+button {
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+
+}
+
+.navbar {
+  height: 75px;
+  background-color: hsl(0, 0%, 10%);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo i {
+  margin-left: 1rem;
+  color: #0aa5ff;
+  font-size: 20px;
+}
+
+.navbar .logo a {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin-left: 12px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 24px;
+  border-right: 1px solid #999999;
+  padding-inline: 24px;
+}
+
+.menu-links a {
+  font-weight: 500;
+  color: #999999;
+  padding: 8px 16px;
+}
+
+.menu-links a:hover {
+  color: white;
+}
+
+.log-in {
+  font-weight: 500;
+  padding: 12px 22px;
+  background-color: transparent;
+  color: #999999;
+  border-radius: 10px;
+  border: 2px solid #0aa5ff;
+  transition: 0.2s;
+}
+
+.log-in:hover {
+  background-color: #0aa5ff;
+  color: white;
+}
+
+.menu-btn {
+  font-size: 32px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 53rem) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+footer{
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+}
+#content2{
+    position: absolute;
+    top: 36.2%;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    width: 862px;
+    height: 450px;
+}
+.content{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.card-body{
+    background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+    font-weight: 500;
+}
+h2{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tag-p2{
+    font-size: larger;
+    font-weight: 700;
+    color: linear-gradient(to right, #434343 0%, black 100%);
+}
+h1{
+    font-weight: 700;
+    color: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
